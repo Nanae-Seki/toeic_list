@@ -29,14 +29,14 @@ TOEIC学習のための単語・フレーズリスト管理プロジェクト
 CSV形式で以下の項目を管理します：
 
 ```csv
-単語・イディオム（英語）,単語・イディオム（日本語）,品詞,重要度,登録日,更新日
+単語,品詞,意味,例文,忘却フラグ,予備1,予備2
 ```
 
 **例:**
 ```csv
-単語・イディオム（英語）,単語・イディオム（日本語）,品詞,重要度,登録日,更新日
-accomplish,成し遂げる,動詞,5,2025-01-15,2025-01-15
-in advance,事前に,イディオム,4,2025-01-15,2025-01-15
+単語,品詞,意味,例文,忘却フラグ,予備1,予備2
+acknowledgements,名詞,謝辞・承認,The author included acknowledgements at the end of the book.,,,
+be compliant with,形容詞句,～に準拠している、～に従っている,All products must be compliant with international safety standards.,,,
 ```
 
 ## 使い方
